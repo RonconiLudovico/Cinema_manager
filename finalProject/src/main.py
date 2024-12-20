@@ -4,12 +4,9 @@ from utils import loading
 from utils.decision_making import *
 
 def main():
-    loading
-    print(menus["0"])
-
     while True:
         choice = input("What would you like to do? ")
-        print(navigate(choice))
+        navigate(choice)
         if choice == "9":
             break
 
@@ -17,4 +14,6 @@ def main():
 
 
 if __name__ == "__main__":
+    loading
+    print(menus["0"])
     main()
