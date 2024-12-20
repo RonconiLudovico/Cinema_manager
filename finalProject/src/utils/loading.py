@@ -7,6 +7,22 @@ def loading():
         time.sleep(0.5)
 
     time.sleep(0.5)
-    print(f"\n\nWelcome to the Cinema manager! How can I help you today?\n")
+    print(r"""
+                             ____________________________
+                            |                            |
+                            |        CINEMA SCREEN       |
+                            |____________________________|
+
+                         .-'                              '-.
+                        /                                    \
+                       /                                      \
+                      /________________________________________\
+                     /                                          \
+                    /                                            \
+
+
+    Welcome to Cinema Manager!
+    Manage Reservations, Check screenings and more with ease!
+    """)
 
 loading()
