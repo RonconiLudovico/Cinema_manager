@@ -10,4 +10,4 @@ def show_infos():
         rowMovie = "{:<30} {:<30} {:30} {:<30}".format(movie[title], movie[time], movie[theater], movie[seats])
         program.append(rowMovie)
 
-    return f"{header.upper()}\n\n{"\n\n".join(program)}"
+    print(f"{header.upper()}\n\n{"\n\n".join(program)}")
