@@ -1,8 +1,20 @@
-from utils import loading, decision_making
+# This is the main program so far, will be implemented in the future
+
+from utils import loading
+from utils.decision_making import *
 
 def main():
     loading
-    decision_making
+    print(menus["0"])
+
+    while True:
+        choice = input("What would you like to do? ")
+        print(navigate(choice))
+        if choice == "9":
+            break
+
+
+
 
 if __name__ == "__main__":
     main()
