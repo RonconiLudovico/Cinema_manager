@@ -1,32 +1,37 @@
 {
     "screenings" : [
         {
+            "Id": "1",
             "movieTitle": "The last Voyage",
-            "timeScheduled": "2024-12-19T14:00:00",
+            "timeScheduled": "2024-12-19 T14:00:00",
             "theater": "Theater 1",
             "availableSeats": 45
         },
         {
+            "Id": "2",
             "movieTitle": "Galactic Frontiers",
-            "timeScheduled": "2024-12-19T17:00:00",
+            "timeScheduled": "2024-12-19 T17:00:00",
             "theater": "Theater 2",
             "availableSeats": 30
         },
         {
+            "Id": "3",
             "movieTitle": "Mystery of the Lost City",
-            "timeScheduled": "2024-12-19T20:00:00",
+            "timeScheduled": "2024-12-19 T20:00:00",
             "theater": "Theater 3",
             "availableSeats": 20
         },
         {
+            "Id": "4",
             "movieTitle": "Romance in the Rain",
-            "timeScheduled": "2024-12-19T22:00:00",
+            "timeScheduled": "2024-12-19 T22:00:00",
             "theater": "Theater 1",
             "availableSeats": 15
         },
         {
+            "Id": "5",
             "movieTitle": "The Comedy Kings",
-            "timeScheduled": "2024-12-20T10:00:00",
+            "timeScheduled": "2024-12-20 T10:00:00",
             "theater": "Theater 4",
             "availableSeats": 50
         }
